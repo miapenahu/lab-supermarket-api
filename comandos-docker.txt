@@ -1,0 +1,15 @@
+
+- Para construir la imagen de docker:
+
+sudo docker build -t supermarket_api .
+
+- Para correr la imagen, con la configuración personalizada en este nodo:
+
+sudo docker run -p 5000:5000 supermarket_api
+
+- NOTA: Si ya se tiene una imagen anterior de supermarket_ms, quitarla con
+  este comando:
+
+sudo docker rm --force supermarket_api
+
+
